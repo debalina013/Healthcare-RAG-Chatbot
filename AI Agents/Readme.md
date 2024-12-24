@@ -14,5 +14,6 @@ This project implements a chatbot that interacts with a pandas DataFrame using t
 - Access to Groq API (API key required)
 
 ## Upload Your Excel File: 
-Ensure that the data file Healthcare Dataset.xlsx present in this folder is uploaded in the Google Collab before running the code.
+Ensure that the data file Healthcare Dataset.xlsx present in this folder is uploaded in the Google Collab before running the code. Also, replace line no. 15 : df = pd.read_excel('/content/vth_3nm.xlsx') with df = pd.read_excel('/content/Healthcare Dataset.xlsx')
+
 
